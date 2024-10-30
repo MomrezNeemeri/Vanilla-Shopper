@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping Cart</title>
+        <!-- font awesome -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="/images/favicon.ico"
+            type="image/x-icon">
+        <!-- custom css -->
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <!-- navbar -->
+
+        <nav class="navbar">
+            <div class="navbar-center">
+                <span class="nav-icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <img
+                    src="/images/vanilla-shopper-high-resolution-logo-transparent.png"
+                    id="store-logo">
+                <div class="cart-btn">
+                    <span class="nav-icon">
+                        <i class="fas fa-cart-plus"></i>
+                    </span>
+                    <div class="cart-items">0</div>
+                </div>
+
+            </div>
+        </nav>
+        <!-- end of navbar -->
+        <!-- hero -->
+        <header class="hero">
+            <div class="banner">
+                <h1 class="banner-title">
+                    Furniture Collection
+                </h1>
+                <button class="banner-btn" id="shop-now-btn">Shop Now</button>
+            </div>
+        </header>
+        <!-- end of hero -->
+
+        <!-- product section -->
+        <section class="products">
+            <div class="section-title">
+                <h2>Our Product</h2>
+            </div>
+
+            <!-- single products -->
+            <div class="products-center">
+                <!-- single product -->
+
+            </div>
+            <!-- end of single products -->
+        </section>
+        <section>
+            <div class="added-to-cart">
+                <i class="fas fa-check"></i>
+                <h2>Added to Cart</h2>
+            </div>
+        </section>
+        <!-- end of product -->
+        <!-- cart -->
+        <div class="cart-overlay">
+            <div class="cart">
+                <span class="close-cart">
+                    <i class="fas fa-window-close"></i>
+                </span>
+                <h2>Your Cart</h2>
+                <div class="cart-content">
+                    <!-- cart item -->
+
+                    <!-- end of cart item -->
+                </div>
+                <div class="cart-footer">
+                    <h3>Total: $<span class="cart-total">00</span></h3>
+                    <button class="clear-cart banner-btn2">Clear Cart</button>
+                </div>
+            </div>
+        </div>
+        <!-- end of cart -->
+        <!-- contentful -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+        <!--  -->
+        <script src="/script.js"></script>
+    </body>
+</html>
